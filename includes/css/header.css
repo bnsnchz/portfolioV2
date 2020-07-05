@@ -1,0 +1,38 @@
+#header{
+    z-index:20;
+    padding:0.778rem 5rem;
+    background-color:#ffffff;
+}
+
+.top-nav ul{
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.top-nav a{
+    display:block;
+    padding:0.4em 1em;
+    position:relative;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.top-nav a:hover{
+    color:#19773b
+}
+
+.header .third span {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 1em;
+}
+
+.header .third.flex {
+    justify-content: flex-start;
+}
+
+.header .site-logo{
+    max-width:5em;
+}
